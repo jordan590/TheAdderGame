@@ -16,7 +16,7 @@ public class AdderGame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        GameBooth game = new GameBooth();
+        GameHandler game = new GameHandler();
         game.setRandomNums();
         game.start();
         
