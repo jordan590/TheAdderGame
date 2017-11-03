@@ -16,7 +16,11 @@ public class AdderGame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        GameBooth game = new GameBooth();
+        game.setRandomNums();
+        game.start();
+        
+        
     }
     
 }
